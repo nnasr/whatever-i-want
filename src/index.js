@@ -5,7 +5,7 @@ import configureStore from './store';
 
 import './index.css';
 import Todolist from "./Todolist"
-import registerServiceWorker from './registerServiceWorker';
+//import registerServiceWorker from './registerServiceWorker';
 
 //var destination = document.querySelector("#container");
 
@@ -17,4 +17,4 @@ ReactDOM.render(
     //destination
 );
 module.hot.accept();
-registerServiceWorker();
+//registerServiceWorker();
